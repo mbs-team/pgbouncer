@@ -18,7 +18,6 @@ RUN make install
 
 FROM alpine:3.12.0
 
-LABEL maintainer="Gerben Geijteman <gerben@hyperized.net>"
 LABEL description="A simple pg_bouncer docker instance"
 
 RUN apk --no-cache add libevent openssl c-ares
